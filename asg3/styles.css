@@ -1,7 +1,7 @@
-h1, h2 {
+h1, h2, h3 {
  	font-family: "Libre Bodoni", serif;
 }
 
-p li {
+p, li {
 	font-family: "Urbanist", sans-serif;
 }
