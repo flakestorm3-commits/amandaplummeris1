@@ -1,9 +1,15 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+body {
+	background: blue;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family:   font-family: "IBM Plex Serif", serif;
+	color: red;
+}
+
+p {
+	font-family: "Asul", serif;
+	color: white;
 }
