@@ -9,7 +9,7 @@ h1, h2, h3 {
 	color: red;
 }
 
-p {
+p, ul, li {
 	font-family: "Asul", serif;
 	color: white;
 }
