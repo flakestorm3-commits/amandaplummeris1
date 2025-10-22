@@ -1,0 +1,41 @@
+/* bungee-inline-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bungee Inline';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bungee-inline-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* cagliostro-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cagliostro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/cagliostro-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Adding Background Pattern*/
+html {
+  background-image: url(images/bluestripebackground.png);
+}
+
+body{
+    margin: 90px;
+}
+
+h1, h3 {
+    font-family: 'Bungee Inline';
+    color: purple;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+  color: purple;
+}
+
+p {
+    font-family: 'Cagliostro';
+    color: white;
+}
