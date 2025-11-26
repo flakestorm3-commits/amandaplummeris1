@@ -48,7 +48,8 @@ h1, h2 {
 /* Making the tile of the page bigger */
 .title {
       font-family: 'Luckiest Guy';
-      font-size: 30px;
+      font-size: 200px;
+      text-align: center;
 }
 
 p {
