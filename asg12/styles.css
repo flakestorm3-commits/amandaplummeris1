@@ -24,6 +24,7 @@
 
  Insert all your glorious CSS styles below! */
 /* luckiest-guy-regular - latin */
+/*Fonts For the Website*/
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Luckiest Guy';
@@ -42,6 +43,12 @@
 
 h1, h2 {
   font-family: 'Luckiest Guy';
+}
+
+/* Making the tile of the page bigger */
+.title {
+      font-family: 'Luckiest Guy';
+      font-size: 30px;
 }
 
 p {
