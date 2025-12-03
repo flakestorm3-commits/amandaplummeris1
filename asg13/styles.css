@@ -1,0 +1,112 @@
+/* Some selectors to get you started */
+
+/* alex-brush-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alex-brush-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* geist-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/geist-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* diplomata-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Diplomata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/diplomata-v33-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+margin: 60px;
+background-color: blueviolet;
+}
+
+/* Main Heading of the Page */
+.title {
+  color: blue;
+  font-size: 100px;
+  text-align: center;
+   font-family: 'Alex Brush';
+}
+
+h1 {
+
+color: white;
+font-family: 'Diplomata';
+}
+
+h2 {
+
+	color:white;
+  font-family: 'Diplomata';
+}
+
+h3 {
+
+	color: white;
+  font-family: 'Diplomata';
+}
+
+
+p {
+
+color: white;
+font-family: 'Geist';
+}
+
+a {
+color:blue;
+font-family: 'Geist';
+
+}
+
+a:hover {
+  color:aqua;
+  font-family: 'Geist';
+}
+
+/* I'm not using the listings, but I decided to leave them */
+ol {
+color: white;
+
+}
+
+ul {
+color: white;
+
+}
+
+li {
+
+	color: white;
+}
+
+/* Attempt at using CSS flexbox - It keeps saying there is an error, which is worrying me */
+.container {
+  flex-direction: row ; row-reverse ; column | column-reverse;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+
+
+
+
+
+
